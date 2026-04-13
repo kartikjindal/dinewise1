@@ -17,7 +17,7 @@ const outfit = Outfit({
 export const metadata = {
   title: 'DineWise — Restaurant Marketing Agency',
   description:
-    'DineWise helps restaurants grow faster with data-driven ads, social media, influencer campaigns, CRM, and platform optimisation. Trusted by 100+ restaurants across India.',
+    'DineWise helps restaurants grow faster with data-driven ads, social media, influencer campaigns, CRM, and platform optimisation. Trusted by 15+ restaurant partners across India.',
   keywords: [
     'restaurant marketing agency',
     'restaurant digital marketing',
@@ -48,7 +48,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'DineWise — Restaurant Marketing Agency',
     description:
-      'Data-driven marketing for restaurants that want to grow. 100+ restaurants, 50k+ orders generated.',
+      'Data-driven marketing for restaurants that want to grow. 15+ restaurant partners, consistent orders generated.',
     images: ['/og-image.png'],
   },
   robots: {

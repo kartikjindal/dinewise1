@@ -18,28 +18,28 @@ const dashboardData = [
     accent: '#f97316',
     services: ['Social Media', 'Google Ads', 'Branding'],
     quickMetrics: [
-      { label: 'Social', value: '+210%' },
-      { label: 'Rating', value: '4.8★' },
-      { label: 'Sales', value: '2.4x' }
+      { label: 'Social', value: '+85%' },
+      { label: 'Rating', value: '4.7★' },
+      { label: 'Sales', value: '1.9x' }
     ],
     // Dashboard Panel Data
     kpis: [
-      { title: 'Total Orders', beforeValue: '4,200', afterValue: '9,850', growth: '+134%' },
-      { title: 'Monthly Revenue', beforeValue: '₹6.5L', afterValue: '₹15.8L', growth: '+143%' },
-      { title: 'Customer Rating', beforeValue: '4.2', afterValue: '4.8', growth: '+14%' },
-      { title: 'Ad Conversion Rate', beforeValue: '1.2%', afterValue: '4.1%', growth: '+241%' }
+      { title: 'Total Orders', beforeValue: '1,250', afterValue: '2,850', growth: '+128%' },
+      { title: 'Monthly Revenue', beforeValue: '₹1.5L', afterValue: '₹4.2L', growth: '+180%' },
+      { title: 'Customer Rating', beforeValue: '4.2', afterValue: '4.7', growth: '+12%' },
+      { title: 'Ad Conversion Rate', beforeValue: '1.2%', afterValue: '3.1%', growth: '+158%' }
     ],
     bars: [
-      { metric: 'Online Orders', beforePercent: 30, afterPercent: 85, beforeVal: '1,200', afterVal: '5,800' },
-      { metric: 'Revenue (₹ Lakhs)', beforePercent: 40, afterPercent: 95, beforeVal: '6.5', afterVal: '15.8' },
-      { metric: 'Monthly Impressions', beforePercent: 20, afterPercent: 90, beforeVal: '45K', afterVal: '280K' }
+      { metric: 'Online Orders', beforePercent: 30, afterPercent: 85, beforeVal: '450', afterVal: '2,100' },
+      { metric: 'Revenue (₹ Lakhs)', beforePercent: 40, afterPercent: 95, beforeVal: '1.5', afterVal: '4.2' },
+      { metric: 'Monthly Impressions', beforePercent: 20, afterPercent: 90, beforeVal: '15K', afterVal: '85K' }
     ],
     funnel: {
-      totalGrowth: '3.4x',
+      totalGrowth: '2.2x',
       stages: [
-        { name: 'Ad Impressions', before: '45K', after: '280K', growth: '+520%' },
-        { name: 'Menu Views', before: '8.5K', after: '42K', growth: '+394%' },
-        { name: 'Completed Orders', before: '4.2K', after: '9.85K', growth: '+134%' }
+        { name: 'Ad Impressions', before: '15K', after: '85K', growth: '+466%' },
+        { name: 'Menu Views', before: '2.5K', after: '12K', growth: '+380%' },
+        { name: 'Completed Orders', before: '1.25K', after: '2.85K', growth: '+128%' }
       ]
     },
     timeline: [
@@ -57,28 +57,28 @@ const dashboardData = [
     accent: '#a855f7',
     services: ['Influencer Marketing', 'Meta Ads'],
     quickMetrics: [
-      { label: 'Revenue', value: '3.8x' },
-      { label: 'Sell Out', value: '48hr' },
-      { label: 'Reach', value: '+340%' }
+      { label: 'Revenue', value: '2.4x' },
+      { label: 'Sell Out', value: '24hr' },
+      { label: 'Reach', value: '+180%' }
     ],
     // Dashboard Panel Data
     kpis: [
-      { title: 'Store Footfall', beforeValue: '850/wk', afterValue: '2,900/wk', growth: '+241%' },
-      { title: 'Pre-Orders', beforeValue: '120', afterValue: '890', growth: '+641%' },
-      { title: 'Average Order Value', beforeValue: '₹650', afterValue: '₹1,250', growth: '+92%' },
-      { title: 'Instagram Reach', beforeValue: '12K', afterValue: '85K', growth: '+608%' }
+      { title: 'Store Footfall', beforeValue: '320/wk', afterValue: '950/wk', growth: '+196%' },
+      { title: 'Pre-Orders', beforeValue: '45', afterValue: '280', growth: '+522%' },
+      { title: 'Average Order Value', beforeValue: '₹550', afterValue: '₹950', growth: '+72%' },
+      { title: 'Instagram Reach', beforeValue: '4K', afterValue: '25K', growth: '+525%' }
     ],
     bars: [
-      { metric: 'Weekly Pre-Orders', beforePercent: 15, afterPercent: 80, beforeVal: '120', afterVal: '890' },
-      { metric: 'AOV (Avg Order Value)', beforePercent: 40, afterPercent: 90, beforeVal: '₹650', afterVal: '₹1,250' },
-      { metric: 'Influencer ROI', beforePercent: 10, afterPercent: 95, beforeVal: '1.2x', afterVal: '8.5x' }
+      { metric: 'Weekly Pre-Orders', beforePercent: 15, afterPercent: 80, beforeVal: '45', afterVal: '280' },
+      { metric: 'AOV (Avg Order Value)', beforePercent: 40, afterPercent: 90, beforeVal: '₹550', afterVal: '950' },
+      { metric: 'Influencer ROI', beforePercent: 10, afterPercent: 95, beforeVal: '1.2x', afterVal: '4.5x' }
     ],
     funnel: {
-      totalGrowth: '4.2x',
+      totalGrowth: '2.8x',
       stages: [
-        { name: 'Campaign Reach', before: '12K', after: '85K', growth: '+608%' },
-        { name: 'Site Visitors', before: '1.2K', after: '14.5K', growth: '+1,108%' },
-        { name: 'Checkouts', before: '120', after: '890', growth: '+641%' }
+        { name: 'Campaign Reach', before: '4K', after: '25K', growth: '+525%' },
+        { name: 'Site Visitors', before: '600', after: '4.5K', growth: '+650%' },
+        { name: 'Checkouts', before: '45', after: '280', growth: '+522%' }
       ]
     },
     timeline: [
@@ -96,28 +96,28 @@ const dashboardData = [
     accent: '#06b6d4',
     services: ['Platform Optimisation', 'Menu Design'],
     quickMetrics: [
-      { label: 'Delivery', value: '+120%' },
-      { label: 'Repeat.', value: '62%' },
-      { label: 'ROI', value: '₹8L' }
+      { label: 'Delivery', value: '+85%' },
+      { label: 'Repeat.', value: '48%' },
+      { label: 'ROI', value: '₹2.4L' }
     ],
     // Dashboard Panel Data
     kpis: [
-      { title: 'Zomato/Swiggy Orders', beforeValue: '1,800', afterValue: '4,100', growth: '+127%' },
-      { title: 'Repeat Customers', beforeValue: '24%', afterValue: '62%', growth: '+158%' },
-      { title: 'Menu Conversion', beforeValue: '8.4%', afterValue: '22.1%', growth: '+163%' },
-      { title: 'Net Platform ROI', beforeValue: '₹2.1L', afterValue: '₹8L', growth: '+280%' }
+      { title: 'Zomato/Swiggy Orders', beforeValue: '450', afterValue: '1,150', growth: '+155%' },
+      { title: 'Repeat Customers', beforeValue: '24%', afterValue: '48%', growth: '+100%' },
+      { title: 'Menu Conversion', beforeValue: '6.2%', afterValue: '12.4%', growth: '+100%' },
+      { title: 'Net Platform ROI', beforeValue: '₹65K', afterValue: '₹2.4L', growth: '+269%' }
     ],
     bars: [
-      { metric: 'Delivery Orders', beforePercent: 35, afterPercent: 95, beforeVal: '1,800', afterVal: '4,100' },
-      { metric: 'Menu Conversion %', beforePercent: 20, afterPercent: 85, beforeVal: '8.4%', afterVal: '22.1%' },
-      { metric: 'Repeat Order Rate', beforePercent: 25, afterPercent: 75, beforeVal: '24%', afterVal: '62%' }
+      { metric: 'Delivery Orders', beforePercent: 35, afterPercent: 95, beforeVal: '450', afterVal: '1,150' },
+      { metric: 'Menu Conversion %', beforePercent: 20, afterPercent: 85, beforeVal: '6.2%', afterVal: '12.4%' },
+      { metric: 'Repeat Order Rate', beforePercent: 25, afterPercent: 75, beforeVal: '24%', afterVal: '48%' }
     ],
     funnel: {
-      totalGrowth: '2.5x',
+      totalGrowth: '1.9x',
       stages: [
-        { name: 'Platform Impressions', before: '21K', after: '52K', growth: '+147%' },
-        { name: 'Menu Clicks', before: '2.4K', after: '18K', growth: '+650%' },
-        { name: 'Net Orders', before: '1.8K', after: '4.1K', growth: '+127%' }
+        { name: 'Platform Impressions', before: '12K', after: '35K', growth: '+191%' },
+        { name: 'Menu Clicks', before: '1.4K', after: '5.2K', growth: '+271%' },
+        { name: 'Net Orders', before: '450', after: '1,150', growth: '+155%' }
       ]
     },
     timeline: [
@@ -135,28 +135,28 @@ const dashboardData = [
     accent: '#10b981',
     services: ['Google Ads', 'Zomato Optimisation', 'CRM'],
     quickMetrics: [
-      { label: 'Outlets', value: '4+' },
-      { label: 'Rating', value: '4.7★' },
-      { label: 'ROAS', value: '2.9x' }
+      { label: 'Outlets', value: '2' },
+      { label: 'Rating', value: '4.4★' },
+      { label: 'ROAS', value: '2.4x' }
     ],
     // Dashboard Panel Data
     kpis: [
-      { title: 'Google Local Visits', beforeValue: '2.1K', afterValue: '8.4K', growth: '+300%' },
-      { title: 'Zomato CTR', beforeValue: '4.2%', afterValue: '12.8%', growth: '+204%' },
-      { title: 'Customer Return Rate', beforeValue: '15%', afterValue: '38%', growth: '+153%' },
-      { title: 'Blended ROAS', beforeValue: '1.2x', afterValue: '2.9x', growth: '+141%' }
+      { title: 'Google Local Visits', beforeValue: '850', afterValue: '2,400', growth: '+182%' },
+      { title: 'Zomato CTR', beforeValue: '4.2%', afterValue: '8.6%', growth: '+104%' },
+      { title: 'Customer Return Rate', beforeValue: '15%', afterValue: '28%', growth: '+86%' },
+      { title: 'Blended ROAS', beforeValue: '1.2x', afterValue: '2.4x', growth: '+100%' }
     ],
     bars: [
-      { metric: 'Local Searches', beforePercent: 20, afterPercent: 85, beforeVal: '2.1K', afterVal: '8.4K' },
-      { metric: 'Zomato CTR %', beforePercent: 15, afterPercent: 95, beforeVal: '4.2%', afterVal: '12.8%' },
-      { metric: 'Return Customers', beforePercent: 25, afterPercent: 90, beforeVal: '15%', afterVal: '38%' }
+      { metric: 'Local Searches', beforePercent: 20, afterPercent: 85, beforeVal: '850', afterVal: '2,400' },
+      { metric: 'Zomato CTR %', beforePercent: 15, afterPercent: 95, beforeVal: '4.2%', afterVal: '8.6%' },
+      { metric: 'Return Customers', beforePercent: 25, afterPercent: 90, beforeVal: '15%', afterVal: '28%' }
     ],
     funnel: {
-      totalGrowth: '3.1x',
+      totalGrowth: '1.8x',
       stages: [
-        { name: 'Ad Impressions', before: '18K', after: '65K', growth: '+261%' },
-        { name: 'Store Directions', before: '1.2K', after: '5.8K', growth: '+383%' },
-        { name: 'Zomato Orders', before: '850', after: '2.4K', growth: '+182%' }
+        { name: 'Ad Impressions', before: '12K', after: '45K', growth: '+275%' },
+        { name: 'Store Directions', before: '450', after: '1,850', growth: '+311%' },
+        { name: 'Zomato Orders', before: '320', after: '940', growth: '+193%' }
       ]
     },
     timeline: [
@@ -174,27 +174,27 @@ const dashboardData = [
     accent: '#ec4899',
     services: ['Social Media', 'WhatsApp CRM'],
     quickMetrics: [
-      { label: 'Returns', value: '45%' },
-      { label: 'Views', value: '10k+' },
+      { label: 'Returns', value: '35%' },
+      { label: 'Views', value: '4k+' },
       { label: 'Visits', value: 'Top' }
     ],
     // Dashboard Panel Data
     kpis: [
-      { title: 'WhatsApp Opt-ins', beforeValue: '120', afterValue: '1,850', growth: '+1440%' },
-      { title: 'Organic Reach', beforeValue: '2.4k', afterValue: '18.5k', growth: '+670%' },
-      { title: 'Return Visitors', beforeValue: '12%', afterValue: '45%', growth: '+275%' },
-      { title: 'Weekend Turnout', beforeValue: '250', afterValue: '850', growth: '+240%' }
+      { title: 'WhatsApp Opt-ins', beforeValue: '45', afterValue: '320', growth: '+611%' },
+      { title: 'Organic Reach', beforeValue: '1.2k', afterValue: '8.5k', growth: '+608%' },
+      { title: 'Return Visitors', beforeValue: '12%', afterValue: '35%', growth: '+191%' },
+      { title: 'Weekend Turnout', beforeValue: '120', afterValue: '450', growth: '+275%' }
     ],
     bars: [
-      { metric: 'CRM Subscribers', beforePercent: 10, afterPercent: 95, beforeVal: '120', afterVal: '1,850' },
-      { metric: 'Re-engagement %', beforePercent: 15, afterPercent: 85, beforeVal: '12%', afterVal: '45%' },
-      { metric: 'Weekend Footfall', beforePercent: 30, afterPercent: 90, beforeVal: '250', afterVal: '850' }
+      { metric: 'CRM Subscribers', beforePercent: 10, afterPercent: 95, beforeVal: '45', afterVal: '320' },
+      { metric: 'Re-engagement %', beforePercent: 15, afterPercent: 85, beforeVal: '12%', afterVal: '35%' },
+      { metric: 'Weekend Footfall', beforePercent: 30, afterPercent: 90, beforeVal: '120', afterVal: '450' }
     ],
     funnel: {
-      totalGrowth: '2.9x',
+      totalGrowth: '2.1x',
       stages: [
-        { name: 'Instagram Reach', before: '2.4K', after: '18.5K', growth: '+670%' },
-        { name: 'Profile Visits', before: '350', after: '2.1K', growth: '+500%' },
+        { name: 'Instagram Reach', before: '1.2K', after: '8.5K', growth: '+608%' },
+        { name: 'Profile Views', before: '250', after: '1.4K', growth: '+460%' },
         { name: 'CRM Opt-ins', before: '45', after: '320', growth: '+611%' }
       ]
     },

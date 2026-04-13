@@ -156,7 +156,7 @@ export default function Hero() {
           }}
         >
           <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse" />
-          Trusted by 100+ Restaurants Across India
+          Trusted by 15+ Restaurant Partners Across India
         </div>
 
         {/* Headline */}
@@ -240,9 +240,9 @@ export default function Hero() {
         {/* Stats strip */}
         <div className="mt-20 pt-10 border-t border-gray-200 grid grid-cols-3 gap-6 max-w-xl mx-auto">
           {[
-            { value: '100+', label: 'Restaurants' },
-            { value: '50k+', label: 'Orders Monthly' },
-            { value: '3×', label: 'Avg. Growth' },
+            { value: '15+', label: 'Partners' },
+            { value: '5,000+', label: 'Orders Monthly' },
+            { value: '1.8×', label: 'Avg. Growth' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div

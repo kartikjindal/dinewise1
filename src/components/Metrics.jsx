@@ -9,28 +9,28 @@ gsap.registerPlugin(ScrollTrigger)
 
 const metrics = [
   {
-    value: 100,
+    value: 15,
     suffix: '+',
-    label: 'Restaurants Served',
+    label: 'Restaurant Partners',
     sublabel: 'Across India',
     icon: '🏪',
   },
   {
-    value: 50000,
+    value: 12000,
     suffix: '+',
     label: 'Orders Generated',
     sublabel: 'Every Month',
     icon: '📦',
   },
   {
-    value: 3,
+    value: 1.4,
     suffix: '×',
     label: 'Average Growth',
     sublabel: 'In 6 Months',
     icon: '📈',
   },
   {
-    value: 4.8,
+    value: 4.6,
     suffix: '★',
     label: 'Client Rating',
     sublabel: 'Avg. Across All Partners',

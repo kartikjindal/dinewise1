@@ -16,7 +16,7 @@ const testimonials = [
     logo: "☕"
   },
   {
-    quote: "The team is exceptional. They launched our Summer Patisserie campaign which resulted in pre-orders selling out in 48 hours. Best ROI we've ever seen.",
+    quote: "The team is exceptional. They launched our Summer Patisserie campaign which resulted in pre-orders selling out in less than 24 hours. Best ROI we've ever seen.",
     name: "TART Bengaluru",
     role: "Google Review",
     date: "3 weeks ago",
@@ -24,7 +24,7 @@ const testimonials = [
     logo: "🥐"
   },
   {
-    quote: "We brought them on to handle social media and ROAS increased by 4x. Their strategies for combining global cuisine imagery with local ad targeting brought incredible results.",
+    quote: "We brought them on to handle social media and ROAS increased by 2.5x within the first quarter. Their strategies for combining global cuisine imagery with local ad targeting brought incredible results.",
     name: "Vanamo",
     role: "Google Review",
     date: "4 months ago",
