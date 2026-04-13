@@ -7,12 +7,12 @@
   --color-brand: #f97316;
   --color-brand-light: #fb923c;
   --color-brand-dark: #ea580c;
-  --color-surface: #0a0a0f;
-  --color-surface-2: #111118;
-  --color-surface-3: #1a1a25;
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-text: #f0f0f8;
-  --color-text-muted: #888899;
+  --color-surface: #fafafa;
+  --color-surface-2: #f5f5f5;
+  --color-surface-3: #ffffff;
+  --color-border: #e5e7eb;
+  --color-text: #111827;
+  --color-text-muted: #6b7280;
 }
 
 html {
@@ -20,8 +20,8 @@ html {
 }
 
 body {
-  background-color: #0a0a0f;
-  color: #f0f0f8;
+  background-color: #fafafa;
+  color: #111827;
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,7 +33,7 @@ body {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0a0f;
+  background: #fafafa;
 }
 ::-webkit-scrollbar-thumb {
   background: #f97316;
@@ -47,7 +47,7 @@ body {
 
 /* Gradient text utility */
 .gradient-text {
-  background: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #fbbf24 100%);
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #ea580c 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -55,10 +55,11 @@ body {
 
 /* Glass card */
 .glass {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #e5e7eb;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
 }
 
 /* Grain noise overlay */
@@ -68,7 +69,7 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.025;
+  opacity: 0.04;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   background-size: 200px 200px;
 }
@@ -111,7 +112,7 @@ section {
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(249, 115, 22, 0.4);
+  box-shadow: 0 12px 25px rgba(249, 115, 22, 0.25);
 }
 .btn-primary:active {
   transform: translateY(0);
@@ -122,12 +123,12 @@ section {
   align-items: center;
   gap: 0.5rem;
   padding: 0.875rem 2rem;
-  background: transparent;
-  color: #f0f0f8;
+  background: #ffffff;
+  color: #111827;
   font-weight: 600;
   letter-spacing: 0.025em;
   border-radius: 0.625rem;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid #d1d5db;
   transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
   cursor: pointer;
   font-family: inherit;
@@ -135,8 +136,8 @@ section {
 }
 .btn-secondary:hover {
   transform: translateY(-2px);
-  border-color: rgba(249, 115, 22, 0.5);
-  background: rgba(249, 115, 22, 0.08);
+  border-color: #f97316;
+  background: rgba(249, 115, 22, 0.05);
 }
 
 /* Card hover lift */
@@ -145,21 +146,21 @@ section {
 }
 .card-hover:hover {
   transform: translateY(-6px) scale(1.01);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08); /* softer shadow for light mode */
 }
 
 /* Orange glow accent */
 .glow-orange {
-  box-shadow: 0 0 40px rgba(249, 115, 22, 0.15);
+  box-shadow: 0 0 40px rgba(249, 115, 22, 0.1);
 }
 .glow-orange:hover {
-  box-shadow: 0 0 60px rgba(249, 115, 22, 0.25);
+  box-shadow: 0 0 60px rgba(249, 115, 22, 0.2);
 }
 
 /* Horizontal rule gradient */
 .hr-gradient {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(249, 115, 22, 0.5), transparent);
+  background: linear-gradient(90deg, transparent, rgba(249, 115, 22, 0.3), transparent);
   border: none;
 }
 
@@ -175,7 +176,7 @@ section {
 /* Counter animation flash */
 @keyframes countFlash {
   0% { color: #f97316; }
-  100% { color: #f0f0f8; }
+  100% { color: #111827; }
 }
 
 /* Stagger fade-up (used as fallback for mobile) */

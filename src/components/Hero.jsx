@@ -119,17 +119,17 @@ export default function Hero() {
         className="absolute inset-0"
         style={{
           background:
-            'radial-gradient(ellipse 80% 80% at 50% -10%, rgba(249,115,22,0.18) 0%, rgba(10,10,15,0) 70%), radial-gradient(ellipse 60% 60% at 80% 60%, rgba(234,88,12,0.08) 0%, transparent 60%), #0a0a0f',
+            'radial-gradient(ellipse 80% 80% at 50% -10%, rgba(249,115,22,0.1) 0%, rgba(250,250,250,0) 70%), radial-gradient(ellipse 60% 60% at 80% 60%, rgba(234,88,12,0.05) 0%, transparent 60%), #FAFAFA',
         }}
       />
 
       {/* Grid overlay */}
       <div
         ref={gridRef}
-        className="absolute inset-0 opacity-[0.035]"
+        className="absolute inset-0 opacity-[0.05]"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)',
+            'linear-gradient(rgba(0,0,0,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.5) 1px, transparent 1px)',
           backgroundSize: '60px 60px',
         }}
       />
@@ -163,7 +163,7 @@ export default function Hero() {
         <div ref={headlineRef} className="mb-6">
           <div className="overflow-hidden">
             <h1
-              className="hero-line text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tighter text-white"
+              className="hero-line text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tighter text-gray-900"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
               Your Restaurant
@@ -179,7 +179,7 @@ export default function Hero() {
           </div>
           <div className="overflow-hidden">
             <h1
-              className="hero-line text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tighter text-white"
+              className="hero-line text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tighter text-gray-900"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
               Be Fully Booked.
@@ -190,7 +190,7 @@ export default function Hero() {
         {/* Subheading */}
         <p
           ref={subRef}
-          className="text-lg sm:text-xl text-white/50 max-w-2xl mx-auto leading-relaxed mb-10"
+          className="text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed mb-10"
         >
           DineWise turns hungry browsers into loyal diners — through
           precision-targeted ads, platform dominance, and growth systems built
@@ -238,7 +238,7 @@ export default function Hero() {
         </div>
 
         {/* Stats strip */}
-        <div className="mt-20 pt-10 border-t border-white/5 grid grid-cols-3 gap-6 max-w-xl mx-auto">
+        <div className="mt-20 pt-10 border-t border-gray-200 grid grid-cols-3 gap-6 max-w-xl mx-auto">
           {[
             { value: '100+', label: 'Restaurants' },
             { value: '50k+', label: 'Orders Monthly' },
@@ -251,14 +251,14 @@ export default function Hero() {
               >
                 {stat.value}
               </div>
-              <div className="text-xs text-white/40 mt-1">{stat.label}</div>
+              <div className="text-xs text-gray-500 mt-1">{stat.label}</div>
             </div>
           ))}
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
-          <span className="text-xs text-white/50 tracking-widest uppercase">Scroll</span>
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-60">
+          <span className="text-xs text-gray-500 tracking-widest uppercase font-semibold">Scroll</span>
           <div className="w-px h-12 bg-gradient-to-b from-orange-500/60 to-transparent" />
         </div>
       </div>

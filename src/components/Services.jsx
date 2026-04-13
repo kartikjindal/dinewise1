@@ -111,7 +111,7 @@ export default function Services() {
         {/* Heading */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <h2
-            className="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight"
+            className="text-4xl sm:text-5xl font-black text-gray-900 leading-tight tracking-tight"
             style={{ fontFamily: 'var(--font-outfit)' }}
           >
             Every Tool Your
@@ -119,7 +119,7 @@ export default function Services() {
             Restaurant Needs.{' '}
             <span className="gradient-text">One Team.</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed self-end">
+          <p className="text-gray-500 text-lg leading-relaxed self-end">
             Stop juggling five agencies. DineWise is your single growth partner
             — covering every digital channel that brings diners through your
             door.
@@ -152,21 +152,21 @@ export default function Services() {
               <div className="relative z-10">
                 <div className="text-3xl mb-5">{service.icon}</div>
                 <h3
-                  className="text-xl font-bold text-white mb-3 group-hover:text-orange-300 transition-colors duration-300"
+                  className="text-xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors duration-300"
                   style={{ fontFamily: 'var(--font-outfit)' }}
                 >
                   {service.title}
                 </h3>
-                <p className="text-white/55 text-sm leading-relaxed mb-5">
+                <p className="text-gray-600 text-sm leading-relaxed mb-5">
                   {service.description}
                 </p>
 
                 {/* Pricing hint */}
                 <div className="flex items-center justify-between">
-                  <span className="text-xs text-orange-500/70 font-medium">
+                  <span className="text-xs text-orange-600/80 font-semibold tracking-wide">
                     {service.pricing}
                   </span>
-                  <span className="text-white/20 group-hover:text-orange-500 transition-colors duration-300">
+                  <span className="text-gray-300 group-hover:text-orange-500 transition-colors duration-300">
                     <svg
                       className="w-4 h-4"
                       fill="none"
@@ -189,7 +189,7 @@ export default function Services() {
 
         {/* CTA below cards */}
         <div className="mt-12 text-center">
-          <p className="text-white/40 text-sm mb-4">
+          <p className="text-gray-500 text-sm mb-4">
             Not sure which services your restaurant needs?
           </p>
           <a

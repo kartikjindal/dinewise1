@@ -30,7 +30,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="border-t border-white/5 pt-16 pb-8 px-6">
+    <footer className="border-t border-gray-200 pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
@@ -41,14 +41,14 @@ export default function Footer() {
                 D
               </div>
               <span
-                className="text-white font-bold text-lg tracking-tight"
+                className="text-gray-900 font-bold text-lg tracking-tight"
                 style={{ fontFamily: 'var(--font-outfit)' }}
               >
                 Dine<span className="text-orange-500">Wise</span>
               </span>
             </div>
 
-            <p className="text-white/45 text-sm leading-relaxed max-w-xs mb-6">
+            <p className="text-gray-600 text-sm leading-relaxed max-w-xs mb-6">
               The restaurant marketing agency that turns digital channels into
               dining rooms. Premium strategy, measurable results.
             </p>
@@ -73,7 +73,7 @@ export default function Footer() {
           {/* Links */}
           {Object.entries(footerLinks).map(([group, links]) => (
             <div key={group}>
-              <h4 className="text-xs font-bold text-white/30 uppercase tracking-[0.2em] mb-5">
+              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-[0.2em] mb-5">
                 {group}
               </h4>
               <ul className="space-y-3">
@@ -85,7 +85,7 @@ export default function Footer() {
                         e.preventDefault()
                         document.querySelector(link.href)?.scrollIntoView({ behavior: 'smooth' })
                       }}
-                      className="text-sm text-white/45 hover:text-orange-400 transition-colors duration-200 cursor-pointer"
+                      className="text-sm text-gray-500 hover:text-orange-600 transition-colors duration-200 cursor-pointer"
                     >
                       {link.label}
                     </a>
@@ -97,11 +97,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/25">
+        <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-gray-400">
             © {currentYear} DineWise. All rights reserved.
           </p>
-          <p className="text-xs text-white/25">
+          <p className="text-xs text-gray-400">
             Designed with ❤️ for restaurants that deserve to grow.
           </p>
         </div>

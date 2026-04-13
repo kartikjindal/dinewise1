@@ -96,7 +96,7 @@ export default function Metrics() {
 
         <div className="text-center mb-16">
           <h2
-            className="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight"
+            className="text-4xl sm:text-5xl font-black text-gray-900 leading-tight tracking-tight"
             style={{ fontFamily: 'var(--font-outfit)' }}
           >
             Growth You Can
@@ -120,8 +120,8 @@ export default function Metrics() {
               >
                 0
               </div>
-              <div className="text-white font-semibold mb-1">{metric.label}</div>
-              <div className="text-white/40 text-sm">{metric.sublabel}</div>
+              <div className="text-gray-900 font-bold mb-1">{metric.label}</div>
+              <div className="text-gray-500 text-sm">{metric.sublabel}</div>
             </div>
           ))}
         </div>
@@ -129,7 +129,7 @@ export default function Metrics() {
         {/* Tagline */}
         <div className="mt-16 text-center">
           <div
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full text-sm text-orange-400"
+            className="inline-flex items-center gap-3 px-6 py-3 rounded-full text-sm text-orange-600"
             style={{
               background: 'rgba(249,115,22,0.08)',
               border: '1px solid rgba(249,115,22,0.2)',
@@ -139,7 +139,7 @@ export default function Metrics() {
               94% of our clients renew after the first quarter.
             </span>
             <span className="text-orange-500">→</span>
-            <span className="text-white/50">That&apos;s not a coincidence.</span>
+            <span className="text-gray-500 font-medium tracking-wide">That&apos;s not a coincidence.</span>
           </div>
         </div>
       </div>

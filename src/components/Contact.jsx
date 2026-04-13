@@ -86,7 +86,7 @@ export default function Contact() {
           {/* Left: CTA copy */}
           <div>
             <h2
-              className="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight mb-6"
+              className="text-4xl sm:text-5xl font-black text-gray-900 leading-tight tracking-tight mb-6"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
               Let&apos;s Grow
@@ -94,7 +94,7 @@ export default function Contact() {
               Your{' '}
               <span className="gradient-text">Restaurant.</span>
             </h2>
-            <p className="text-white/55 text-lg leading-relaxed mb-10">
+            <p className="text-gray-600 text-lg leading-relaxed mb-10">
               Whether you&apos;re a neighbourhood café or a multi-outlet chain,
               we&apos;ll build a strategy that fits where you are — and takes
               you where you want to be.
@@ -115,8 +115,8 @@ export default function Contact() {
                     {item.icon}
                   </div>
                   <div>
-                    <div className="text-xs text-white/40 mb-0.5">{item.label}</div>
-                    <div className="text-sm text-white/80">{item.value}</div>
+                    <div className="text-xs text-gray-500 mb-0.5">{item.label}</div>
+                    <div className="text-sm font-semibold text-gray-900">{item.value}</div>
                   </div>
                 </div>
               ))}
@@ -134,10 +134,10 @@ export default function Contact() {
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="glass px-4 py-2.5 rounded-xl text-sm text-white/60 hover:text-white hover:border-orange-500/30 transition-all duration-200 flex items-center gap-2"
+                  className="glass px-4 py-2.5 rounded-xl text-sm text-gray-600 hover:text-gray-900 hover:border-orange-500/30 transition-all duration-200 flex items-center gap-2"
                 >
                   <span>{s.icon}</span>
-                  <span>{s.name}</span>
+                  <span className="font-medium">{s.name}</span>
                 </a>
               ))}
             </div>
@@ -149,12 +149,12 @@ export default function Contact() {
               <div className="glass rounded-2xl p-10 text-center">
                 <div className="text-5xl mb-4">🎉</div>
                 <h3
-                  className="text-2xl font-bold text-white mb-3"
+                  className="text-2xl font-bold text-gray-900 mb-3"
                   style={{ fontFamily: 'var(--font-outfit)' }}
                 >
                   We&apos;ll be in touch soon!
                 </h3>
-                <p className="text-white/55">
+                <p className="text-gray-600">
                   Thank you for reaching out. Our team will get back to you
                   within 24 hours.
                 </p>
@@ -173,7 +173,7 @@ export default function Contact() {
                 {/* Name + Email */}
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs text-white/40 mb-2 uppercase tracking-wide">
+                    <label className="block text-xs text-gray-500 font-semibold mb-2 uppercase tracking-wide">
                       Your Name *
                     </label>
                     <input
@@ -183,12 +183,12 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       placeholder="Rahul Gupta"
-                      className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder-white/25 outline-none focus:ring-1 focus:ring-orange-500 transition-all"
-                      style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}
+                      className="w-full px-4 py-3 rounded-xl text-gray-900 text-sm placeholder-gray-400 outline-none focus:ring-1 focus:ring-orange-500 transition-all"
+                      style={{ background: '#ffffff', border: '1px solid #e5e7eb' }}
                     />
                   </div>
                   <div>
-                    <label className="block text-xs text-white/40 mb-2 uppercase tracking-wide">
+                    <label className="block text-xs text-gray-500 font-semibold mb-2 uppercase tracking-wide">
                       Email Address *
                     </label>
                     <input
@@ -198,15 +198,15 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       placeholder="rahul@restaurant.com"
-                      className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder-white/25 outline-none focus:ring-1 focus:ring-orange-500 transition-all"
-                      style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}
+                      className="w-full px-4 py-3 rounded-xl text-gray-900 text-sm placeholder-gray-400 outline-none focus:ring-1 focus:ring-orange-500 transition-all"
+                      style={{ background: '#ffffff', border: '1px solid #e5e7eb' }}
                     />
                   </div>
                 </div>
 
                 {/* Restaurant name */}
                 <div>
-                  <label className="block text-xs text-white/40 mb-2 uppercase tracking-wide">
+                  <label className="block text-xs text-gray-500 font-semibold mb-2 uppercase tracking-wide">
                     Restaurant Name
                   </label>
                   <input
@@ -215,14 +215,14 @@ export default function Contact() {
                     value={formData.restaurant}
                     onChange={handleChange}
                     placeholder="Your Restaurant Name"
-                    className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder-white/25 outline-none focus:ring-1 focus:ring-orange-500 transition-all"
-                    style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}
+                    className="w-full px-4 py-3 rounded-xl text-gray-900 text-sm placeholder-gray-400 outline-none focus:ring-1 focus:ring-orange-500 transition-all"
+                    style={{ background: '#ffffff', border: '1px solid #e5e7eb' }}
                   />
                 </div>
 
                 {/* Message */}
                 <div>
-                  <label className="block text-xs text-white/40 mb-2 uppercase tracking-wide">
+                  <label className="block text-xs text-gray-500 font-semibold mb-2 uppercase tracking-wide">
                     What&apos;s your biggest challenge? *
                   </label>
                   <textarea
@@ -232,8 +232,8 @@ export default function Contact() {
                     required
                     placeholder="Tell us where your restaurant is and what you want to achieve..."
                     rows={4}
-                    className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder-white/25 outline-none focus:ring-1 focus:ring-orange-500 transition-all resize-none"
-                    style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}
+                    className="w-full px-4 py-3 rounded-xl text-gray-900 text-sm placeholder-gray-400 outline-none focus:ring-1 focus:ring-orange-500 transition-all resize-none"
+                    style={{ background: '#ffffff', border: '1px solid #e5e7eb' }}
                   />
                 </div>
 
@@ -245,7 +245,7 @@ export default function Contact() {
                 >
                   {status === 'sending' ? (
                     <>
-                      <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                      <span className="w-4 h-4 border-2 border-orange-500/30 border-t-orange-500 rounded-full animate-spin" />
                       Sending...
                     </>
                   ) : (
@@ -264,7 +264,7 @@ export default function Contact() {
                   </p>
                 )}
 
-                <p className="text-white/25 text-xs text-center">
+                <p className="text-gray-400 text-xs text-center font-medium">
                   We respond within 24 hours · No spam, ever.
                 </p>
               </form>

@@ -95,7 +95,7 @@ export default function Testimonials() {
 
         <div className="grid md:grid-cols-2 gap-10 mb-10">
           <h2
-            className="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight"
+            className="text-4xl sm:text-5xl font-black text-gray-900 leading-tight tracking-tight"
             style={{ fontFamily: 'var(--font-outfit)' }}
           >
             Don&apos;t Take{' '}
@@ -104,7 +104,7 @@ export default function Testimonials() {
             for It.
           </h2>
           <div className="flex items-end">
-            <p className="text-white/50 leading-relaxed max-w-sm">
+            <p className="text-gray-500 leading-relaxed max-w-sm">
               The restaurants below trusted us with their growth. Here&apos;s
               what they experienced firsthand on Google.
             </p>
@@ -120,8 +120,8 @@ export default function Testimonials() {
               key={t.name}
               className={`testimonial-card glass rounded-2xl p-7 cursor-pointer transition-all duration-300 relative ${
                 active === i
-                  ? 'border-orange-500/30 bg-white/5 shadow-[0_0_40px_rgba(249,115,22,0.1)]'
-                  : 'hover:border-white/10'
+                  ? 'border-orange-500/30 bg-white shadow-[0_0_40px_rgba(249,115,22,0.1)]'
+                  : 'hover:border-gray-300'
               }`}
               onClick={() => setActive(i)}
             >
@@ -136,13 +136,13 @@ export default function Testimonials() {
               </div>
 
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl"
-                  style={{ background: 'rgba(255,255,255,0.05)' }}>
+                <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl shadow-sm"
+                  style={{ background: 'rgba(0,0,0,0.03)' }}>
                   {t.logo}
                 </div>
                 <div>
-                  <div className="text-sm font-bold text-white">{t.name}</div>
-                  <div className="text-xs text-white/40">{t.date}</div>
+                  <div className="text-sm font-bold text-gray-900">{t.name}</div>
+                  <div className="text-xs text-gray-500">{t.date}</div>
                 </div>
               </div>
 
@@ -152,7 +152,7 @@ export default function Testimonials() {
                 ))}
               </div>
 
-              <blockquote className="text-white/80 leading-relaxed text-sm">
+              <blockquote className="text-gray-700 leading-relaxed text-sm">
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
             </div>

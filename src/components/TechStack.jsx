@@ -56,14 +56,14 @@ export default function TechStack() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h2
-              className="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight mb-4"
+              className="text-4xl sm:text-5xl font-black text-gray-900 leading-tight tracking-tight mb-4"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
               Platforms We
               <br />
               <span className="gradient-text">Master Daily.</span>
             </h2>
-            <p className="text-white/50 text-lg leading-relaxed">
+            <p className="text-gray-500 text-lg leading-relaxed">
               We work with the best tools in the industry, fully integrated into
               a cohesive strategy — no guesswork, no gaps.
             </p>
@@ -82,10 +82,10 @@ export default function TechStack() {
                 <div className="text-3xl mb-2 group-hover:scale-110 transition-transform duration-200">
                   {tool.emoji}
                 </div>
-                <div className="text-xs font-semibold text-white/80 mb-1">
+                <div className="text-xs font-semibold text-gray-900 mb-1">
                   {tool.name}
                 </div>
-                <div className="text-xs text-white/35">{tool.desc}</div>
+                <div className="text-xs text-gray-500">{tool.desc}</div>
               </div>
             ))}
           </div>

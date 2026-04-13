@@ -84,7 +84,7 @@ export default function About() {
           {/* Left: Big headline */}
           <div ref={leftRef}>
             <h2
-              className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight mb-8"
+              className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-tight tracking-tight mb-8"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
               We Built This
@@ -106,19 +106,19 @@ export default function About() {
 
           {/* Right: Story copy */}
           <div ref={rightRef} className="space-y-6">
-            <p className="text-white/70 text-lg leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed">
               DineWise was born from a single, infuriating truth: brilliant
               restaurants — with incredible food and passionate teams — were
               losing to mediocre competitors who simply knew how to play the
               digital game better.
             </p>
-            <p className="text-white/70 text-lg leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed">
               We bridge that gap. We combine performance marketing, data
               intelligence, and deep industry knowledge to make your restaurant
               the first choice — on every platform, for every customer searching
               nearby.
             </p>
-            <p className="text-white/70 text-lg leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed">
               We don&apos;t do generic. Every strategy we build is tailored to
               your cuisine, your location, and your growth stage — because
               what works for a cloud kitchen is not what scales a fine-dining
@@ -138,7 +138,7 @@ export default function About() {
                   className="glass rounded-xl p-4 flex items-start gap-3"
                 >
                   <span className="text-xl">{item.icon}</span>
-                  <span className="text-sm text-white/60">{item.text}</span>
+                  <span className="text-sm text-gray-600 font-medium">{item.text}</span>
                 </div>
               ))}
             </div>

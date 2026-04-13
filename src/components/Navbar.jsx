@@ -49,12 +49,12 @@ export default function Navbar() {
         ref={navRef}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? 'py-3 border-b border-white/5'
+            ? 'py-3 border-b border-gray-200'
             : 'py-5'
         }`}
         style={{
           background: scrolled
-            ? 'rgba(10, 10, 15, 0.85)'
+            ? 'rgba(255, 255, 255, 0.85)'
             : 'transparent',
           backdropFilter: scrolled ? 'blur(20px)' : 'none',
           WebkitBackdropFilter: scrolled ? 'blur(20px)' : 'none',
@@ -67,7 +67,7 @@ export default function Navbar() {
               D
             </div>
             <span
-              className="text-white font-bold text-lg tracking-tight"
+              className="text-gray-900 font-bold text-lg tracking-tight"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
               Dine<span className="text-orange-500">Wise</span>
@@ -81,7 +81,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className="text-sm text-white/60 hover:text-white transition-colors duration-200 relative group cursor-pointer"
+                className="text-sm text-gray-500 hover:text-gray-900 hover:font-medium transition-all duration-200 relative group cursor-pointer"
               >
                 {link.label}
                 <span className="absolute -bottom-0.5 left-0 h-px w-0 bg-orange-500 transition-all duration-300 group-hover:w-full" />
@@ -105,17 +105,17 @@ export default function Navbar() {
             aria-label="Toggle menu"
           >
             <span
-              className={`block w-6 h-0.5 bg-white transition-all duration-300 origin-center ${
+              className={`block w-6 h-0.5 bg-gray-900 transition-all duration-300 origin-center ${
                 isOpen ? 'rotate-45 translate-y-2' : ''
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
+              className={`block w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
                 isOpen ? 'opacity-0' : ''
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-white transition-all duration-300 origin-center ${
+              className={`block w-6 h-0.5 bg-gray-900 transition-all duration-300 origin-center ${
                 isOpen ? '-rotate-45 -translate-y-2' : ''
               }`}
             />
@@ -128,7 +128,7 @@ export default function Navbar() {
         className={`fixed inset-0 z-40 md:hidden transition-all duration-300 ${
           isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
-        style={{ background: 'rgba(10,10,15,0.97)' }}
+        style={{ background: 'rgba(255,255,255,0.97)' }}
       >
         <div className="flex flex-col items-center justify-center h-full gap-8">
           {navLinks.map((link) => (
@@ -136,7 +136,7 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="text-2xl font-semibold text-white/80 hover:text-orange-500 transition-colors cursor-pointer"
+              className="text-2xl font-semibold text-gray-700 hover:text-orange-500 transition-colors cursor-pointer"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
               {link.label}

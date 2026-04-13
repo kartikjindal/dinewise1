@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Services from '@/components/Services'
-import Portfolio from '@/components/Portfolio'
+import RestaurantSection from '@/components/dashboard/RestaurantSection'
 import TechStack from '@/components/TechStack'
 import Metrics from '@/components/Metrics'
 import Testimonials from '@/components/Testimonials'
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <Portfolio />
+      <RestaurantSection />
       <TechStack />
       <Metrics />
       <Testimonials />
