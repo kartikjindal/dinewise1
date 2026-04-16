@@ -26,6 +26,10 @@ export const metadata = {
     'restaurant ads management',
     'food marketing india',
   ],
+  icons: {
+    icon: '/logo.jpg',
+    apple: '/logo.jpg',
+  },
   authors: [{ name: 'DineVibe Studio' }],
   openGraph: {
     type: 'website',
