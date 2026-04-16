@@ -6,8 +6,6 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const FORMSPREE_ID = 'your-formspree-id' // Replace with actual Formspree form ID
-
 export default function Contact() {
   const sectionRef = useRef(null)
   const formRef = useRef(null)
@@ -45,7 +43,7 @@ export default function Contact() {
     setStatus('sending')
 
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(formData),
