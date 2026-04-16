@@ -126,22 +126,6 @@ export default function Metrics() {
           ))}
         </div>
 
-        {/* Tagline */}
-        <div className="mt-16 text-center">
-          <div
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full text-sm text-orange-600"
-            style={{
-              background: 'rgba(249,115,22,0.08)',
-              border: '1px solid rgba(249,115,22,0.2)',
-            }}
-          >
-            <span className="font-semibold">
-              94% of our clients renew after the first quarter.
-            </span>
-            <span className="text-orange-500">→</span>
-            <span className="text-gray-500 font-medium tracking-wide">That&apos;s not a coincidence.</span>
-          </div>
-        </div>
       </div>
     </section>
   )
