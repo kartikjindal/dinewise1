@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const testimonials = [
   {
-    quote: "DineWise completely transformed our digital presence. Within 3 months, our Zomato orders doubled and footfall across all our Bangalore outlets skyrocketed. They truly understand cafe aesthetics.",
+    quote: "DineVibe Studio completely transformed our digital presence. Within 3 months, our Zomato orders doubled and footfall across all our Bangalore outlets skyrocketed. They truly understand cafe aesthetics.",
     name: "Paper & Pie",
     role: "Google Review",
     date: "2 months ago",
@@ -40,7 +40,7 @@ const testimonials = [
     logo: "🫘"
   },
   {
-    quote: "DineWise is the real deal. They built incredible hype on Instagram for our official launch and manage our WhatsApp CRM seamlessly. Diners keep returning.",
+    quote: "DineVibe Studio is the real deal. They built incredible hype on Instagram for our official launch and manage our WhatsApp CRM seamlessly. Diners keep returning.",
     name: "The Illusion Cafe",
     role: "Google Review",
     date: "5 months ago",

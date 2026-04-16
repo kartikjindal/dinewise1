@@ -120,7 +120,7 @@ export default function Services() {
             <span className="gradient-text">One Team.</span>
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed self-end">
-            Stop juggling five agencies. DineWise is your single growth partner
+            Stop juggling five agencies. DineVibe Studio is your single growth partner
             — covering every digital channel that brings diners through your
             door.
           </p>

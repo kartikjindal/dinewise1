@@ -70,7 +70,7 @@ export default function Navbar() {
               className="text-gray-900 font-bold text-lg tracking-tight"
               style={{ fontFamily: 'var(--font-outfit)' }}
             >
-              Dine<span className="text-orange-500">Wise</span>
+              Dine<span className="text-orange-500">Vibe</span>
             </span>
           </Link>
 

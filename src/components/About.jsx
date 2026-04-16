@@ -107,7 +107,7 @@ export default function About() {
           {/* Right: Story copy */}
           <div ref={rightRef} className="space-y-6">
             <p className="text-gray-600 text-lg leading-relaxed">
-              DineWise was born from a single, infuriating truth: brilliant
+              DineVibe Studio was born from a single, infuriating truth: brilliant
               restaurants — with incredible food and passionate teams — were
               losing to mediocre competitors who simply knew how to play the
               digital game better.

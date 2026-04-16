@@ -192,7 +192,7 @@ export default function Hero() {
           ref={subRef}
           className="text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed mb-10"
         >
-          DineWise turns hungry browsers into loyal diners — through
+          DineVibe Studio turns hungry browsers into loyal diners — through
           precision-targeted ads, platform dominance, and growth systems built
           exclusively for restaurants.
         </p>

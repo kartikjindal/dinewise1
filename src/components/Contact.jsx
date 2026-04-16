@@ -103,7 +103,7 @@ export default function Contact() {
             {/* Contact details */}
             <div className="space-y-5">
               {[
-                { icon: '📧', label: 'Email', value: 'hello@dinewise.in' },
+                { icon: '📧', label: 'Email', value: 'hello@dinevibestudio.in' },
                 { icon: '📱', label: 'WhatsApp', value: '+91 98XXX XXXXX' },
                 { icon: '📍', label: 'Based in', value: 'Mumbai, India (serving nationwide)' },
               ].map((item) => (
@@ -125,9 +125,9 @@ export default function Contact() {
             {/* Social links */}
             <div className="flex items-center gap-4 mt-10">
               {[
-                { name: 'Instagram', icon: '📸', href: 'https://instagram.com/dinewise' },
-                { name: 'LinkedIn', icon: '💼', href: 'https://linkedin.com/company/dinewise' },
-                { name: 'Twitter', icon: '🐦', href: 'https://twitter.com/dinewise' },
+                { name: 'Instagram', icon: '📸', href: 'https://instagram.com/dinevibestudio' },
+                { name: 'LinkedIn', icon: '💼', href: 'https://linkedin.com/company/dinevibestudio' },
+                { name: 'Twitter', icon: '🐦', href: 'https://twitter.com/dinevibestudio' },
               ].map((s) => (
                 <a
                   key={s.name}
@@ -260,7 +260,7 @@ export default function Contact() {
 
                 {status === 'error' && (
                   <p className="text-red-400 text-sm text-center">
-                    Something went wrong. Please email us directly at hello@dinewise.in
+                    Something went wrong. Please email us directly at hello@dinevibestudio.in
                   </p>
                 )}
 

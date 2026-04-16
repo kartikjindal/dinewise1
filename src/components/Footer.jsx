@@ -20,9 +20,9 @@ const footerLinks = {
 }
 
 const socials = [
-  { name: 'Instagram', href: 'https://instagram.com/dinewise', icon: '📸' },
-  { name: 'LinkedIn', href: 'https://linkedin.com/company/dinewise', icon: '💼' },
-  { name: 'Twitter', href: 'https://twitter.com/dinewise', icon: '🐦' },
+  { name: 'Instagram', href: 'https://instagram.com/dinevibestudio', icon: '📸' },
+  { name: 'LinkedIn', href: 'https://linkedin.com/company/dinevibestudio', icon: '💼' },
+  { name: 'Twitter', href: 'https://twitter.com/dinevibestudio', icon: '🐦' },
   { name: 'WhatsApp', href: 'https://wa.me/91XXXXXXXXXX', icon: '💬' },
 ]
 
@@ -44,7 +44,7 @@ export default function Footer() {
                 className="text-gray-900 font-bold text-lg tracking-tight"
                 style={{ fontFamily: 'var(--font-outfit)' }}
               >
-                Dine<span className="text-orange-500">Wise</span>
+                Dine<span className="text-orange-500">Vibe</span>
               </span>
             </div>
 
@@ -99,7 +99,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-400">
-            © {currentYear} DineWise. All rights reserved.
+            © {currentYear} DineVibe Studio. All rights reserved.
           </p>
           <p className="text-xs text-gray-400">
             Designed with ❤️ for restaurants that deserve to grow.
