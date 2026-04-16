@@ -123,9 +123,8 @@ export default function Contact() {
             {/* Social links */}
             <div className="flex items-center gap-4 mt-10">
               {[
-                { name: 'Instagram', icon: '📸', href: 'https://instagram.com/dinevibestudio' },
-                { name: 'LinkedIn', icon: '💼', href: 'https://linkedin.com/company/dinevibestudio' },
-                { name: 'Twitter', icon: '🐦', href: 'https://twitter.com/dinevibestudio' },
+                { name: 'Instagram', icon: '📸', href: 'https://www.instagram.com/dinevibe.studio' },
+                { name: 'LinkedIn', icon: '💼', href: 'https://www.linkedin.com/company/dinewise-studio' },
               ].map((s) => (
                 <a
                   key={s.name}

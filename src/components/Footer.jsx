@@ -20,9 +20,8 @@ const footerLinks = {
 }
 
 const socials = [
-  { name: 'Instagram', href: 'https://instagram.com/dinevibestudio', icon: '📸' },
-  { name: 'LinkedIn', href: 'https://linkedin.com/company/dinevibestudio', icon: '💼' },
-  { name: 'Twitter', href: 'https://twitter.com/dinevibestudio', icon: '🐦' },
+  { name: 'Instagram', href: 'https://www.instagram.com/dinevibe.studio', icon: '📸' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/company/dinewise-studio', icon: '💼' },
   { name: 'WhatsApp', href: 'https://wa.me/919258494901', icon: '💬' },
 ]
 

@@ -71,8 +71,8 @@ const jsonLd = {
     addressCountry: 'IN',
   },
   sameAs: [
-    'https://instagram.com/dinevibestudio',
-    'https://linkedin.com/company/dinevibestudio',
+    'https://www.instagram.com/dinevibe.studio',
+    'https://www.linkedin.com/company/dinewise-studio',
   ],
   knowsAbout: [
     'Restaurant Marketing',
