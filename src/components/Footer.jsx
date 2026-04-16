@@ -23,7 +23,7 @@ const socials = [
   { name: 'Instagram', href: 'https://instagram.com/dinevibestudio', icon: '📸' },
   { name: 'LinkedIn', href: 'https://linkedin.com/company/dinevibestudio', icon: '💼' },
   { name: 'Twitter', href: 'https://twitter.com/dinevibestudio', icon: '🐦' },
-  { name: 'WhatsApp', href: 'https://wa.me/91XXXXXXXXXX', icon: '💬' },
+  { name: 'WhatsApp', href: 'https://wa.me/919258494901', icon: '💬' },
 ]
 
 export default function Footer() {

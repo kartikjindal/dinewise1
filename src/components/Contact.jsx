@@ -101,8 +101,8 @@ export default function Contact() {
             {/* Contact details */}
             <div className="space-y-5">
               {[
-                { icon: '📧', label: 'Email', value: 'hello@dinevibestudio.in' },
-                { icon: '📱', label: 'WhatsApp', value: '+91 98XXX XXXXX' },
+                { icon: '📧', label: 'Email', value: 'dinevibestudio@gmail.com' },
+                { icon: '📱', label: 'WhatsApp', value: '+91 9258494901' },
                 { icon: '📍', label: 'Based in', value: 'Mumbai, India (serving nationwide)' },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-4">
@@ -258,7 +258,7 @@ export default function Contact() {
 
                 {status === 'error' && (
                   <p className="text-red-400 text-sm text-center">
-                    Something went wrong. Please email us directly at hello@dinevibestudio.in
+                    Something went wrong. Please email us directly at dinevibestudio@gmail.com
                   </p>
                 )}
 

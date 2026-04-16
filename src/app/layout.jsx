@@ -65,7 +65,7 @@ const jsonLd = {
   description:
     'Restaurant marketing agency specialising in ads management, social media, influencer marketing, CRM, and food delivery platform optimisation.',
   url: 'https://dinevibestudio.in',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91 9258494901',
   address: {
     '@type': 'PostalAddress',
     addressCountry: 'IN',
